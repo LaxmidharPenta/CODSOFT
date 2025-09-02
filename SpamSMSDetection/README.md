@@ -2,7 +2,7 @@
 🔍 Project Overview
 
 This project is an intelligent system that classifies SMS messages as spam (unwanted messages) or ham (legitimate messages).
-It leverages Machine Learning with TF-IDF vectorization to convert text messages into numerical features and train models for accurate spam detection.
+It uses Machine Learning with TF-IDF vectorization to convert SMS text into numeric features and train models for accurate spam detection.
 
 🎯 Goal: Help users automatically filter unwanted SMS messages.
 
@@ -12,7 +12,7 @@ Source: UCI SMS Spam Collection Dataset
 
 File: spam.csv
 
-Columns Used:
+Columns:
 
 v1 → Label (ham or spam)
 
@@ -34,65 +34,64 @@ SpamSMS-Detection/
 
 ⚡ Features
 
-🧹 Data Preprocessing
+1. 🧹 Data Preprocessing
 
-Load dataset and clean SMS messages
+  Load dataset and clean SMS messages
 
-Encode labels (ham → 0, spam → 1)
+  Encode labels (ham → 0, spam → 1)
 
-📊 Train-Test Split
+2. 📊 Train-Test Split
 
-80% training, 20% testing
+  80% training, 20% testing
 
-Stratified to maintain spam/ham ratio
+  Stratified to maintain spam/ham ratio
 
-✏️ Text Vectorization
+3. ✏️ Text Vectorization
 
-Convert SMS text into numerical features using TF-IDF
+  Convert SMS text into numeric features using TF-IDF
 
-🤖 Machine Learning Models:
+4. 🤖 Machine Learning Models
 
-Naive Bayes
+  Naive Bayes
 
-Logistic Regression
+  Logistic Regression
 
-Support Vector Machine (SVM)
+  Support Vector Machine (SVM)
 
-📈 Evaluation Metrics:
+5. 📈 Evaluation
 
-Accuracy ✅
+  Accuracy ✅
 
-Classification report 📋
+  Classification report 📋
 
-Confusion matrix (visualized with Seaborn) 🟦🟥
+  Confusion matrix (visualized with Seaborn) 🟦🟥
 
-💬 Dynamic SMS Testing:
+6. 💬 Dynamic SMS Testing
 
-Input new SMS messages and get real-time predictions
+  Input new SMS messages and get real-time predictions
 
 ⚙️ Installation
 
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/LaxmidharPenta/CODSOFT.git
 
-
-Navigate to project folder:
+2. Navigate to project folder:
 
 cd CODSOFT/SpamSMS-Detection
 
 
-Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
-🚀 How to Use:
+🚀 How to Use
 
-Open exspamsmsdetection.ipynb in Jupyter Notebook or Google Colab.
+1. Open exspamsmsdetection.ipynb in Jupyter Notebook or Google Colab.
 
-Upload the dataset (spam.csv) if using Colab.
+2. Upload the dataset (spam.csv) if using Colab.
 
-Run all cells sequentially:
+3. Run all cells sequentially:
 
 Load and explore data 📂
 
@@ -115,7 +114,7 @@ Output: Prediction: Spam 📛
 Example 2:
 
 Input: "Hey, are we meeting for lunch today?"
-Output: Prediction:Not Spam ✅
+Output: Prediction: Ham ✅
 
 💡 Future Improvements
 

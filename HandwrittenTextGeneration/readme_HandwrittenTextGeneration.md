@@ -33,8 +33,6 @@ HandwrittenTextGeneration/
 │   └── handwrittentextgeneration.ipynb
 ├── data/                     # Fonts & images for training
 │   └── Zeyada-Regular.ttf
-├── scripts/                  # Python scripts (optional)
-├── requirements.txt          # Python dependencies
 └── README_HandwrittenTextGeneration.md  # Project documentation
 ```
 

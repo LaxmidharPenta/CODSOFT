@@ -92,11 +92,14 @@ pip install -r requirements.txt
 
 ## 🔮 Sample Output
 
-**Input:** `"Hello, this is CODSOFT!"`
+**Input:** 
+Enter at least 40 characters as seed text:
+HI , I am Laxmidhar Penta. This is my Machine Learning project on Handwritten Text Generation.
+Using seed text:
+ hi , i am laxmidhar penta. this is my ma
 **Output:** A realistic handwritten-style image of the text ✍️
+<img width="800" height="212" alt="image" src="https://github.com/user-attachments/assets/17613f1c-2441-457d-808e-319617d46177" />
 
-**Input:** `"Machine Learning is awesome!"`
-**Output:** Personalized handwritten text image 🖋️
 
 ---
 

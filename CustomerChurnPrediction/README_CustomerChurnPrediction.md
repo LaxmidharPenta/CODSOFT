@@ -103,4 +103,8 @@ CustomerChurnPrediction/
 
 ---
 
+## 📝 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](../LICENSE) file in the repository root for details.
+
 **Made with ❤️ by Laxmidhar Penta**

@@ -1,130 +1,118 @@
-TASK 1:
-📩 Spam SMS Detection using Machine Learning
-🔍 Project Overview
+# CODSOFT Machine Learning Internship Projects
 
-This project is an intelligent system that classifies SMS messages as spam (unwanted messages) or ham (legitimate messages).
-It uses Machine Learning with TF-IDF vectorization to convert SMS text into numeric features and train models for accurate spam detection.
+[![GitHub issues](https://img.shields.io/github/issues/LaxmidharPenta/CODSOFT)](https://github.com/LaxmidharPenta/CODSOFT/issues)
+[![GitHub forks](https://img.shields.io/github/forks/LaxmidharPenta/CODSOFT)](https://github.com/LaxmidharPenta/CODSOFT/network)
+[![GitHub stars](https://img.shields.io/github/stars/LaxmidharPenta/CODSOFT)](https://github.com/LaxmidharPenta/CODSOFT/stargazers)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 
-🎯 Goal: Help users automatically filter unwanted SMS messages.
+---
 
-📂 Dataset
+## 📌 Overview
 
-Source: UCI SMS Spam Collection Dataset
+This repository contains **three Machine Learning internship tasks** completed under the CODSOFT organization:
 
-File: spam.csv
+1. **Spam SMS Detection** – Classify SMS messages as spam or ham using TF-IDF and ML models.
+2. **Customer Churn Prediction** – Predict subscription churn for a business using historical data.
+3. **Handwritten Text Generation** – Generate handwritten-style text using Deep Learning.
 
-Columns:
+---
 
-v1 → Label (ham or spam)
 
-v2 → SMS message text
+## 🗂️ Repository Folder Structure
 
-Encoding: Latin-1
-
-🗂️ Project Structure
-SpamSMS-Detection/
+```
+CODSOFT/
 │
-├── notebooks/               # Jupyter/Colab notebooks
-│   └── exspamsmsdetection.ipynb
-├── scripts/                 # Python scripts
-│   └── exspamsmsdetection.py
-├── data/                    # Dataset
-│   └── spam.csv
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+├── SpamSMS-Detection/                # Spam SMS Detection Project
+│   ├── notebooks/
+│   │   └── exspamsmsdetection.ipynb
+│   ├── data/
+│   │   └── spam.csv
+│   └── README.md
+│
+├── CustomerChurnPrediction/          # Customer Churn Prediction Project
+│   ├── notebooks/
+│   │   └── customerchurnprediction.ipynb
+│   ├── datasets/
+│   │   └── Churn_Modelling.csv
+│   ├── customer_churn_prediction.py
+│   └── README_CustomerChurnPrediction.md
+│
+├── HandwrittenTextGeneration/        # Handwritten Text Generation Project
+│   ├── notebook/
+│   │   └── handwrittentextgeneration.ipynb
+│   ├── data/
+│   │   └── Zeyada-Regular.ttf
+│   └── README_HandwrittenTextGeneration.md
+│
+└── LICENSE                           # MIT License for all projects
+```
 
-⚡ Features
+---
 
-1. 🧹 Data Preprocessing
+## 📂 Projects & Badges
 
-  Load dataset and clean SMS messages
+### 1️⃣ Spam SMS Detection
+- **Goal:** Classify SMS messages as spam or legitimate  
+- **Technologies:** TF-IDF, Naive Bayes, Logistic Regression, SVM  
+- **Folder:** `SpamSMS-Detection/`  
+[View Project README](SpamSMS-Detection/README.md)  
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 
-  Encode labels (ham → 0, spam → 1)
+### 2️⃣ Customer Churn Prediction
+- **Goal:** Predict customer churn for subscription-based services  
+- **Technologies:** Logistic Regression, Random Forest, Gradient Boosting  
+- **Folder:** `CustomerChurnPrediction/`  
+[View Project README](CustomerChurnPrediction/README_CustomerChurnPrediction.md)  
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 
-2. 📊 Train-Test Split
+### 3️⃣ Handwritten Text Generation
+- **Goal:** Generate handwritten-style text from typed input  
+- **Technologies:** Neural Networks, Deep Learning, Image Processing  
+- **Folder:** `HandwrittenTextGeneration/`  
+[View Project README](HandwrittenTextGeneration/README_HandwrittenTextGeneration.md)  
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 
-  80% training, 20% testing
+---
 
-  Stratified to maintain spam/ham ratio
+## ⚙️ Installation
 
-3. ✏️ Text Vectorization
-
-  Convert SMS text into numeric features using TF-IDF
-
-4. 🤖 Machine Learning Models
-
-  Naive Bayes
-
-  Logistic Regression
-
-  Support Vector Machine (SVM)
-
-5. 📈 Evaluation
-
-  Accuracy ✅
-
-  Classification report 📋
-
-  Confusion matrix (visualized with Seaborn) 🟦🟥
-
-6. 💬 Dynamic SMS Testing
-
-  Input new SMS messages and get real-time predictions
-
-⚙️ Installation
-
-1. Clone the repository:
-
+```bash
+# Clone the repository
 git clone https://github.com/LaxmidharPenta/CODSOFT.git
+cd CODSOFT
 
-2. Navigate to project folder:
+# Install dependencies for each project separately
+pip install -r SpamSMS-Detection/requirements.txt
+pip install -r HandwrittenTextGeneration/requirements.txt
 
-cd CODSOFT/SpamSMS-Detection
+# CustomerChurnPrediction uses standard ML libraries
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
 
+---
 
-3. Install dependencies:
+## 🚀 How to Use
 
-pip install -r requirements.txt
+1. Navigate to the project folder of interest.
+2. Open the Jupyter Notebook or Python script.
+3. Follow the instructions in the project README.
+4. Run the code to train models, test inputs, or generate outputs.
 
-🚀 How to Use
+---
 
-1. Open exspamsmsdetection.ipynb in Jupyter Notebook or Google Colab.
+## 🔮 Future Improvements
 
-2. Upload the dataset (spam.csv) if using Colab.
+- Build **web interfaces** for each project using Streamlit or Flask 🌐  
+- Integrate advanced models like **BERT or GANs** for higher performance 🧠  
+- Deploy projects as **REST APIs** or web applications 📱💻  
 
-3. Run all cells sequentially:
+---
 
-Load and explore data 📂
+## 📝 License
 
-Preprocess and split dataset 🧹
+All projects in this repository are licensed under the **MIT License** – see the [LICENSE](LICENSE) file in the repository root for details.
 
-Vectorize messages using TF-IDF ✏️
+---
 
-Train models and evaluate performance 🤖
-
-Test new SMS messages dynamically 💬
-
-🔮 Sample Predictions
-
-Example 1:
-
-Input: "Congratulations! You won a $1000 gift card. Call now!"
-Output: Prediction: Spam 📛
-
-
-Example 2:
-
-Input: "Hey, are we meeting for lunch today?"
-Output: Prediction: Ham ✅
-
-💡 Future Improvements
-
-Integrate a web interface using Streamlit or Flask 🌐
-
-Use advanced NLP models like LSTM or BERT for higher accuracy 🧠
-
-Deploy as a REST API for mobile or desktop applications 📱💻
-
-📝 License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
+**Made with ❤️ by Laxmidhar Penta**

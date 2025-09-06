@@ -56,7 +56,7 @@ CODSOFT/
 - **Goal:** Classify SMS messages as spam or legitimate  
 - **Technologies:** TF-IDF, Naive Bayes, Logistic Regression, SVM  
 - **Folder:** `SpamSMS-Detection/`  
-[View Project README](SpamSMSDetection/README.md)  
+[View Project README](SpamSMSDetection/README_SpamSMSDetection.md)  
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 ### 2️⃣ Customer Churn Prediction

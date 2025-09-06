@@ -56,7 +56,7 @@ CODSOFT/
 - **Goal:** Classify SMS messages as spam or legitimate  
 - **Technologies:** TF-IDF, Naive Bayes, Logistic Regression, SVM  
 - **Folder:** `SpamSMS-Detection/`  
-[View Project README](SpamSMS-Detection/README.md)  
+[View Project README](SpamSMSDetection/README.md)  
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 ### 2️⃣ Customer Churn Prediction
@@ -70,7 +70,7 @@ CODSOFT/
 - **Goal:** Generate handwritten-style text from typed input  
 - **Technologies:** Neural Networks, Deep Learning, Image Processing  
 - **Folder:** `HandwrittenTextGeneration/`  
-[View Project README](HandwrittenTextGeneration/README_HandwrittenTextGeneration.md)  
+[View Project README](HandwrittenTextGeneration/readme_HandwrittenTextGeneration.md)  
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 
 ---
